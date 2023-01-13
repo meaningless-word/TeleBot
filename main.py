@@ -1,9 +1,9 @@
 import json
 import telebot
 
-token = "1655048663:AAGyXzCWImIn2c1H-atHfK75_52E6jD9sH0"
+import bottoken
 
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(bottoken.T)
 
 HELP = """
 /help - вывести список доступных команд.
